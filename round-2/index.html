@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="auth-card" aria-labelledby="auth-title">
+        <header class="auth-header">
+          <p class="eyebrow">Welcome</p>
+          <h1 id="auth-title">Access your account</h1>
+          <p class="intro">Choose to sign in or create a new account.</p>
+        </header>
+
+        <div class="auth-switch" role="tablist" aria-label="Authentication options">
+          <button type="button" id="login-tab" role="tab" aria-selected="true" aria-controls="login-panel" class="tab-button active">
+            Login
+          </button>
+          <button type="button" id="signup-tab" role="tab" aria-selected="false" aria-controls="signup-panel" class="tab-button">
+            Sign up
+          </button>
+        </div>
+
+        <section id="login-panel" role="tabpanel" aria-labelledby="login-tab">
+          <form id="login-form" novalidate>
+            <div class="field-group">
+              <label for="login-email">Email address</label>
+              <input id="login-email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field-group">
+              <label for="login-password">Password</label>
+              <div class="password-wrapper">
+                <input id="login-password" name="password" type="password" autocomplete="current-password" required minlength="6" />
+                <button type="button" class="password-toggle" aria-label="Show password">Show</button>
+              </div>
+            </div>
+
+            <div class="form-meta">
+              <label class="checkbox-row">
+                <input type="checkbox" name="remember" />
+                <span>Remember me</span>
+              </label>
+            </div>
+
+            <button type="submit" class="submit-button">Sign in</button>
+          </form>
+        </section>
+
+        <section id="signup-panel" role="tabpanel" aria-labelledby="signup-tab" hidden>
+          <form id="signup-form" novalidate>
+            <div class="field-group">
+              <label for="signup-name">Full name</label>
+              <input id="signup-name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="field-group">
+              <label for="signup-email">Email address</label>
+              <input id="signup-email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field-group">
+              <label for="signup-password">Password</label>
+              <div class="password-wrapper">
+                <input id="signup-password" name="password" type="password" autocomplete="new-password" required minlength="6" />
+                <button type="button" class="password-toggle" aria-label="Show password">Show</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="signup-confirm-password">Confirm password</label>
+              <div class="password-wrapper">
+                <input id="signup-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" required minlength="6" />
+                <button type="button" class="password-toggle" aria-label="Show password">Show</button>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-button">Create account</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
