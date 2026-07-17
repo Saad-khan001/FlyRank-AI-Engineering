@@ -1,12 +1,10 @@
-# FlyRank AI Engineering – Feature Round 2
+# FlyRank AI Engineering Internship Portfolio
 
 ## Overview
 
-This branch represents the **Round 2** implementation of the FlyRank AI Engineering internship assignments.
+This repository contains my work completed during the **FlyRank AI Engineering Internship**.
 
-Its purpose is to demonstrate a **structured AI-assisted development workflow**, where software is developed through planning, architecture, implementation, verification, manual testing, and code review instead of relying on a single vague AI prompt.
-
-The repository is organized to keep each assignment independent while maintaining a consistent development workflow across the internship.
+It serves as a centralized portfolio for all assignments, projects, and learning activities completed throughout the internship. Each assignment demonstrates my progress in frontend development, AI-assisted software engineering, Git workflows, documentation, and professional development practices.
 
 ---
 
@@ -23,37 +21,80 @@ FlyRank AI Engineering/
 └── README.md
 ```
 
-Each assignment folder contains its own project files and documentation, including implementation details, objectives, workflows, and project-specific learning outcomes.
+Each assignment folder contains:
 
----
-
-## Branch Purpose
-
-This branch is used to maintain the **Round 2** versions of internship assignments.
-
-The focus of this branch is to demonstrate:
-
-* Structured AI-assisted development
-* Planning before implementation
-* Code verification and review
-* Manual testing
-* Continuous improvement
-* Professional Git workflow
-* Well-organized project documentation
-
-Assignment-specific implementation details are documented inside the corresponding assignment folders.
+- Assignment source code
+- Project documentation
+- Supporting assets (when applicable)
+- Screenshots
+- Notes and learning outcomes
 
 ---
 
 ## Current Assignments
 
-* **FE-01 – Environment and AI Toolchain**
-* **FE-03 – AI-Assisted Workflow Drill**
+### FE-01 – Environment and AI Toolchain
+
+Focus areas:
+
+- Development environment setup
+- AI development tools
+- Git & GitHub workflow
+- Repository configuration
+
+### FE-03 – AI-Assisted Workflow Drill
+
+Focus areas:
+
+- AI-assisted frontend development
+- Prompt engineering
+- Comparing vague and structured AI workflows
+- Login & Signup Authentication Form
+- Workflow documentation and verification
 
 Additional assignments will be added as the internship progresses.
 
 ---
 
-## Repository Goal
+## Technologies Used
 
-The goal of this branch is to document my progress throughout the FlyRank AI Engineering Internship while following professional software engineering practices, maintaining organized documentation, and demonstrating continuous improvement across assignments.
+Throughout this internship, I work with technologies including:
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Git
+- GitHub
+- Node.js
+- AI-assisted development tools
+
+---
+
+## Development Workflow
+
+This repository follows a structured Git workflow.
+
+- `main` contains the latest stable version of completed assignments.
+- Feature branches are used during development.
+- Each assignment includes its own documentation and supporting files.
+- AI-generated code is reviewed, tested, and refined before submission.
+
+---
+
+## Learning Goals
+
+The purpose of this repository is to continuously improve my skills in:
+
+- Frontend Development
+- AI-Assisted Software Engineering
+- Prompt Engineering
+- Git & GitHub
+- Software Documentation
+- Code Review & Testing
+- Professional Development Practices
+
+---
+
+## Repository Purpose
+
+This repository documents my learning journey throughout the **FlyRank AI Engineering Internship**. It showcases both the technical implementations and the development workflows followed while completing each assignment using professional software engineering practices.
